@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>labayk</title>
+
+    <!-- css imports -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+
+  <body>
+
+    <!-- header & navbar -->
+
+    <div class="container-fluid bg-white backBox">
+      <div class="row bg-white mb-1">
+        <div class="col-sm-3 col-md-5 col-lg-6 col-xl-6 d-none d-md-block d-lg-block d-xl-block d-xxl-block ">
+          <div class="col-lg-12 col-xl-12 d-none  d-lg-block d-xl-block d-xxl-block   text-white">
+            <div class="w-fit bg-info ps-lg-5 pe-lg-5 ms-lg-2 py-2 l-skew  ">
+              <small>Welcome To Labbayk Technologies Software Solution!</small>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 d-none d-sm-none mt-3 mx-4 d-md-flex d-lg-flex d-xl-flex align-items-center justify-content-between text-info"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-5 col-xl-5 d-flex  justify-content-lg-end justify-content-xl-end  justify-content-md-end  justify-content-sm-around justify-content-around me-xl-1 me-lg-1" style="height: 45px;">
+          <form class="col-xl-8 col-lg-7 col-md-6 d-flex border mt-1">
+            <input class="form-control border-1 rounded-0 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success text-white border-0 rounded-0 bg-black"" type="submit"><i class="fa fa-search "></i></button>
+            
+          </form>
+          <button class="btn btn-sm btn-md btn-success text-white border-0 rounded-5 ms-lg-4 ms-md-2 mt-1 px-lg-4 w-fit" ><i class="fa fa-phone "></i> Contact Us</button>
+        </div>
+
+      </div>
+      <nav>
+        <a href="index.html"><img src="./img/servicetec-logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li class="link-active"><a href="index.html">HOME</a></li>
+            <li><a href="">who we are</a></li>
+            <li><a href="">Services we offer</a></li>
+            <li><a href="">products we offer</a></li>
+            <li><a href="">our union</a></li>
+            <li><a href="">be in touch</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+    </div>
+
+    <!-- carousel -->
+
+    <div class="container-fluid h-25 mx-0 px-0 tt-3">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide banner-bg1">
+            <div class="row mt-5 mb-0 w-75 text-center align-items-center">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-xl-start text-lg-start text-md-start text-center my-auto text-start text-white banner-text  mb-2 mb-md-1 mb-lg-5 mb-xl-5">
+                <h1>
+                  Expand <small>your</small> Business <small>with</small> <br />
+                  <small>our</small> <span>IOT Solution</span>
+                </h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                  dolorum exercitationem nobis perspiciatis necessitatibus
+                  dolorem aliquam, at similique odio repellat, eligendi autem
+                  reprehenderit. Vel, nostrum.
+                </p>
+
+                <button class="btn-sm px-3 btn-info">Learn More</button>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-none d-md-block d-xl-block d-lg-block mb-0">
+                <img src="./img/NicePng_laptop-png_4738761.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+
+
+    <!-- discover section -->
+
+    <div
+      class="container-fluid mt-0 mb-5 mx-0 px-0 position-relative dis-back-p"
+    >
+      <div class="w-75 dis-back"></div>
+
+      <div class="row my-4 px-0 mx-0 ms-0">
+        <div class="col-xl-6 col-lg-6 mb-2 ps-0">
+          <div class="position-relative h-250 w-100 back-shadow-r">
+            <img src="./img/team.jfif" alt="" class="r-skew canImg" />
+            <div class="bg-info imgBack"></div>
+            <div class="circle rounded-circle bg-black text-white">
+              <h6 class="text-uppercase text-center pt-2">
+                Since <br />
+                2007
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-5 ps-4">
+          <div class="w-100 .textBox">
+            <p class="small text-uppercase">Discover our company</p>
+            <h2>
+              <strong>Bringing</strong> new
+              <span class="text-info">IT Business Solution</span>
+            </h2>
+            <div class="underline ms-0"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quibusdam, quam mollitia modi dolorum provident perspiciatis sint
+              quae recusandae necessitatibus doloribus!
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              nobis quam voluptate quibusdam ab beatae sint accusamus ea
+              adipisci, iste itaque illum repudiandae officia laudantium
+              architecto veritatis rem non? Odit necessitatibus soluta at
+              veritatis neque ab pariatur veniam culpa totam.
+            </p>
+
+            <button
+              class="btn btn-outline-dark rounded-0 font-weight-bold text-uppercase px-4 py-1"
+            >
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- services -->
+
+    <div class="container mx-auto  mt-5 mb-5">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 overflow-hidden col-md-12 col-sm-12 text-center text-lg-start mb-1">
+          <div class="w-auto">
+            <p class="small text-uppercase">services we offer</p>
+            <h2>
+              <strong>WE</strong> make the
+              <span class="text-info">Perfect Solution</span>
+            </h2>
+            <div class="underline "></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quibusdam, quam mollitia modi dolorum provident perspiciatis sint
+              quae recusandae necessitatibus doloribus!
+            </p>
+          </div>
+          <div class="w-auto">
+            <div class="row mx-auto">
+              <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 mb-1 mx-auto  ">
+                <div
+                  class="card  bg-black text-white rounded-0 mx-auto"
+                  style="width: 17rem; height: 350px"
+                >
+                  <img
+                    src="./img/cloudComputing.png"
+                    class="card-img-top mx-auto mt-2"
+                    style="width: 150px; height: 150px"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong>Cloud</strong> <br />
+                      Computing
+                    </h5>
+                    <div class="underline bg-white"></div>
+                    <p class="card-text overflow-hidden small" style="width: 90%;">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 mb-1 mx-auto">
+                <div
+                  class="card  bg-black text-white rounded-0 mx-auto "
+                  style="width: 17rem; height: 350px"
+                >
+                  <img
+                    src="./img/javaApp.png"
+                    class="card-img-top mx-auto mt-2"
+                    style="width: 150px; height: 150px"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong>JAVA Application</strong> <br />
+                      Development
+                    </h5>
+                    <div class="underline bg-white"></div>
+                    <p class="card-text overflow-hidden small" style="width: 90%;">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 overflow-hidden col-md-12 col-sm-12 text-center text-lg-start mb-1">
+          <div class="w-100">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 mb-1 mx-auto">
+                <div
+                  class="card bg-black text-white rounded-0 mx-auto "
+                  style="width: 17rem; height: 350px"
+                >
+                  <img
+                    src="./img/enterpriceApp.png"
+                    class="card-img-top mx-auto mt-2"
+                    style="width: 150px; height: 150px; object-fit: cover"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong>Cloud</strong> <br />
+                      Computing
+                    </h5>
+                    <div class="underline bg-white"></div>
+                    <p class="card-text overflow-auto small" style="width: 90%;">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 mb-1 mx-auto">
+                <div
+                  class="card bg-black text-white rounded-0 mx-auto "
+                  style="width: 17rem; height: 350px"
+                >
+                  <img
+                    src="./img/IOT.png"
+                    class="card-img-top mx-auto mt-2"
+                    style="width: 150px; height: 150px"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <strong>JAVA Application</strong> <br />
+                      Development
+                    </h5>
+                    <div class="underline bg-white"></div>
+                    <p class="card-text overflow-auto small" style="width: 90%;">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 text-center mt-4">
+            <p class="small text-capitalize mt-3">
+              You want to check
+              <a href="" class="text-info">All Services</a> click this button
+              now
+            </p>
+            <a href="" class="btn rounded-0 btn-info text-uppercase px-3"
+              >View All Services</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- certified -->
+
+    <div class="container-fluid mt-4 ">
+      <div class="row h-500">
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 bg-info d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center justify-content-center  ">
+          <img
+              src="./img/teamOffice.jpg"
+              class="squre-img "
+            />
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 bg-black d-flex flex-column align-items-center justify-content-center">
+          <div class="w-75 mt-3 mb-3 mx-auto  text-white border-bottom text-center text-lg-start text-xl-start ">
+            <p class="small text-uppercase">services we offer</p>
+            <h2>
+              <strong>WE</strong> make the
+              <span class="text-info">Perfect Solution</span>
+            </h2>
+            <div class="underline mx-auto ms-lg-0 ms-xl-0 bg-info"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quibusdam, quam mollitia modi dolorum provident perspiciatis
+              sint quae recusandae necessitatibus doloribus!
+            </p>
+          </div>
+          <div class=" w-75 d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row align-items-center  text-white mb-3">
+            <div class="w-75  d-flex align-items-start text-white">
+              <img
+                src="./img/certificate.png"
+                style="width: 50px"
+                alt=""
+                srcset=""
+              />
+              <div class="textBox ms-1 mt-0 ">
+                <p><strong>Certified</strong> company</p>
+                <small>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </small>
+              </div>
+            </div>
+
+            <div class="w-75 d-flex align-items-start text-white">
+              <img
+                src="./img/trophy.png"
+                style="width: 50px"
+                alt=""
+                srcset=""
+              />
+              <div class="textBox ms-1 mt-0">
+                <p><strong>Approved</strong> solution</p>
+                <small>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <!-- subscription plan -->
+
+    <div class="container my-3 px-0 ">
+      <div class="w-100 d-flex flex-column">
+        <div class="text-center">
+          <p class="text-uppercase">Pricing Packages</p>
+          <h3>
+            <strong>Choose</strong> your
+            <span class="text-info">Best Plan</span>
+          </h3>
+
+          <p class="underline bg-black mx-auto"></p>
+        </div>
+
+        <div class="pricing-table">
+          <div class="pricing-card">
+            <h3 class="pricing-card-header">Silver</h3>
+            <div class="price"><sup>$</sup>29.99<span>/MO</span></div>
+            <ul>
+              <li>
+                <span>Powerfull Admin Panel</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+              <li>
+                <span>1 Native Android App</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+              <li>
+                <span>Multilanguage Support</span
+                ><i class="fa-solid fa-close"></i>
+              </li>
+              <li>
+                <span>Support via E-mail and Phone</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+            </ul>
+            <a href="#" class="order-btn">Get Quote</a>
+          </div>
+
+          <div class="pricing-card">
+            <h3 class="pricing-card-header">Gold</h3>
+            <div class="price"><sup>$</sup>39.99<span>/MO</span></div>
+            <ul>
+              <li>
+                <span>Powerfull Admin Panel</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+              <li>
+                <span>1 Native Android App</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+              <li>
+                <span>Multilanguage Support</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+              <li>
+                <span>Support via E-mail and Phone</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+            </ul>
+            <a href="#" class="order-btn">Get Quote</a>
+          </div>
+
+          <div class="pricing-card">
+            <h3 class="pricing-card-header">Platinam</h3>
+            <div class="price"><sup>$</sup>49.99<span>/MO</span></div>
+            <ul>
+              <li>
+                <span>Powerfull Admin Panel</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+              <li>
+                <span>1 Native Android App</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+              <li>
+                <span>Multilanguage Support</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+              <li>
+                <span>Support via E-mail and Phone</span
+                ><i class="fa-solid fa-check"></i>
+              </li>
+            </ul>
+            <a href="#" class="order-btn">Get Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testimonial design old -->
+    <!-- <div class="container-fluid  h-500 position-relative">
+      <div class="row h-100">
+        <div class="col-12 half-bg"></div>
+        <div class="col-12"></div>
+      </div>
+      <div
+        class=" w-100 position-absolute top-0 bottom-0 mx-0 h-auto"
+      >
+      <div class="row my-5 d-flex align-items-center justify-content-center position-relative">
+        <div class="col-4 position-relative" style="z-index: 1;">
+          <img
+            src="./img/singleTeam.jpg"
+            class="squre-img"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="col-5">
+          <div class="col-12 text-white">
+            <p class="small text-uppercase">Testemonials</p>
+            <h2>
+              <strong>WE</strong> are very glad to <br />
+              <strong>Client Review</strong>
+            </h2>
+            <div class="underline bg-white"></div>
+            <div
+              class="w-fit bg-info rounded me-3 py-3 px-2 d-flex align-items-start text-white position-absolute"
+              style="left: 35%; z-index: 2;"
+            >
+              <img
+                src="./img/quote.png"
+                style="width: 50px"
+                alt=""
+                srcset=""
+              />
+              <p class="w-75 my-auto small ms-1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <br />
+                &#9866;<em style="font-weight: bold;">Kristin Hagen</em>
+              </p>
+              <div class="buttons d-flex my-auto mx-3">
+                <button class="btn rounded-circle border text-white mx-1">
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="btn rounded-circle border text-white mx-1">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div> -->
+
+    <!-- testimonial design new -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide testimonial">
+          <div class="container">
+            <h1 class="testimonial__title"><strong>Client</strong> Testimonial</h1>
+            <div class="underline bg-info mx-auto mb-5"></div>
+            <blockquote class="testimonial__quote">
+              <p class="testimonial__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                fugit hic modi nisi blanditiis, possimus asperiores sint iusto
+                dignissimos odio consequuntur, cumque nobis dicta rerum quisquam
+                non placeat accusantium laborum!
+              </p>
+              <footer class="testimonial__meta">
+                <img
+                  class="testimonial__img border-info"
+                  src="./img/singleTeam.jpg"
+                  alt="Author"
+                />
+                
+                <div>
+                  <cite class="testimonial__author text-info">Mike Smith</cite>
+                  <br />
+                  <span class="testimonial__position">Position</span>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+
+    <!-- partener -->
+    <div class="brands px-0">
+      <div class="small-container">
+        <div class=" w-100 text-center">
+          <small class="text-uppercase">OUR SPONsors</small>
+          <h2>
+            <strong>WE</strong> work with the
+            <span class="text-info">Best</span>
+
+          </h2>
+          <div class="underline bg-info mx-auto"></div>
+        </div>
+          <div class="b-row">
+              <div class="b-col-5">
+                  <img src="./img/Sepio_Systems.svg" alt="">
+              </div>
+              <div class="b-col-5">
+                  <img src="./img/vmware.svg" >
+              </div>
+              <div class="b-col-5">
+                  <img src="./img/mcafee-logo.svg" alt="">
+              </div>
+              <div class="b-col-5">
+                  <img src="./img/trend-micro.svg" alt="">
+              </div>
+              <div class="b-col-5">
+                  <img src="./img/logo_aqua.svg" alt="">
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  
+    <!------footer------>
+    <div class="container-fluid bg-dark">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-4 col-xl-4 col-md-6 col-sm-6 bg-black text-white  pt-4 ">
+            <h4><strong>Contact</strong> Info</h4>
+            <div class="underline bg-info ms-0"></div>
+            <ul class=" w-100 d-flex flex-column align-items-baseline px-0">
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <div class="bg-info icon-50 d-flex align-items-center justify-content-center me-1">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="text-white ms-1">
+                  <p class="mb-0">Phone Number</p>
+                  <h5>+7602520120/9007803811</h5>
+                </div>
+
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <div class="bg-info icon-50 d-flex align-items-center justify-content-center me-1">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="text-white ms-1">
+                  <p class="mb-0">E-mail address</p>
+                  <h5>info@labbayktech.com</h5>
+                </div>
+
+              </li>
+              <li class="w-100 text-white d-flex " style="list-style: none;">
+                <div class="bg-info icon-50 d-flex align-items-center justify-content-center me-1">
+                  <i class="fa fa-location-dot"></i>
+                </div>
+                <div class="text-white ms-1">
+                  <p class="mb-0">Adderess</p>
+                  <p class="h6">1st floor Aradhya Complex, <br> Kanke Road, Ranchi 834008, <br> Jharkhand
+                </div>
+
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-xl-2 col-md-6 col-sm-6 ms-xl-2 ms-lg-2 text-white  pt-4 ">
+            <h4><strong>Our</strong> company</h4>
+            <div class="underline bg-info ms-0"></div>
+            <ul class=" w-100 d-flex flex-column align-items-baseline px-0">
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">Home</a> </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">About Us</a> </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">Product We Offer</a> </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">Our Union</a> </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">Contact Us</a> </p>
+              </li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-xl-2 col-md-6 col-sm-6  ms-xl-2 ms-lg-2 text-white  pt-4 ">
+            <h4><strong>We</strong> Provide</h4>
+            <div class="underline bg-info ms-0"></div>
+            <ul class=" w-100 d-flex flex-column align-items-baseline px-0">
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">Cloud Computing</a> </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">Java Application Development</a> </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">enterprice Solutions</a> </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">System Integration</a> </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p><a href="" class="text-white text-decoration-none">Internet of Things(IOT)</a> </p>
+              </li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-xl-3 col-md-6 col-sm-6  ms-xl-2 ms-lg-2 text-white  pt-4 ">
+            <h5><strong>Subscribe </strong>to the newsletter</h5>
+            <div class="underline bg-info ms-0"></div>
+            <ul class=" w-100 d-flex flex-column align-items-baseline px-0">
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <p>Recive our weekly newsletter for the latest development news and offers exclusive and more.</p>
+              </li>              
+              <li class="w-100 text-white d-flex" style="list-style: none;">
+                <form>
+                  <div class="d-flex w-100 ">
+                    <input id="newsletter1" type="text" class="form-control rounded-0" placeholder="Email address">
+                    <button class="btn btn-info rounded-0" type="button"><i class="fa fa-paper-plane"></i></button>
+                  </div>
+                </form>
+              </li>
+              
+              
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      
+    </div>
+    <div class="container text-center text-dark" >
+      <p>&copy; 2017 Labbayk Technologies - All rights reserved | <a href="" class="text-decoration-none text-dark">Legal Notice</a> | <a href="" class="text-decoration-none text-dark">Sitemap</a></p>
+    </div>
+
+
+    <script src="./js/custom.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
