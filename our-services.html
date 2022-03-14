@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>labayk</title>
+
+    <!-- css imports -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+
+  <body>
+    <!-- header & navbar -->
+
+    <div class="container-fluid bg-white backBox mt-0">
+      <div class="row bg-white mb-1 mt-0">
+        <div
+          class="col-sm-3 col-md-5 col-lg-6 col-xl-6 d-none d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <div
+            class="col-lg-12 col-xl-12 d-none d-lg-block d-xl-block d-xxl-block text-white"
+          >
+            <div class="w-fit bg-info ps-lg-5 pe-lg-5 ms-lg-2 py-2 l-skew">
+              <small>Welcome To Labbayk Technologies Software Solution!</small>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 d-none d-sm-none mt-3 mx-4 d-md-flex d-lg-flex d-xl-flex align-items-center justify-content-between text-info"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <div
+          class="col-sm-12 col-md-6 col-lg-5 col-xl-5 d-flex justify-content-lg-end justify-content-xl-end justify-content-md-end justify-content-sm-around justify-content-around me-xl-1 me-lg-1"
+          style="height: 45px"
+        >
+          <form class="col-xl-8 col-lg-7 col-md-6 d-flex border mt-1">
+            <input
+              class="form-control border-1 rounded-0"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success text-white border-0 rounded-0 bg-black"
+              type="submit"
+            >
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+          <button
+            class="btn btn-sm btn-md btn-success text-white border-0 rounded-5 ms-lg-4 ms-md-2 mt-1 px-lg-4 w-fit"
+          >
+            <i class="fa fa-phone"></i> Contact Us
+          </button>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html"><img src="./img/servicetec-logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">who we are</a></li>
+            <li class="link-active"><a href="">Services we offer</a></li>
+            <li><a href="">products we offer</a></li>
+            <li><a href="">our union</a></li>
+            <li><a href="">be in touch</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+    </div>
+
+    <!-- carousel -->
+
+    <div class="container-fluid h-75 mx-0 px-0 tt-3">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide banner-bg1">
+            <div
+              class="text-center  mt-3 h-250 d-flex flex-column justify-content-center align-items-center text-white"
+            >
+              <h2><strong>Our</strong> Services</h2>
+              <div class="p">
+                <i class="fa fa-home"></i>
+                <span>Home</span> //
+                <span class="text-info">Services we offer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+      </div>
+    </div>
+
+    <!-- discover section -->
+
+    <section class="blogPost">
+      <h2>
+        <strong>Custom IT</strong> solution for
+        <span class="text-info">Your Business</span>
+      </h2>
+      <div class="underline bg-info mx-auto"></div>
+      <div class="row">
+        <div class="blog-col text-start shadow">
+          <img
+            src="./img/icons8-marketing-65.png"
+            class="mb-2"
+            style="width: 80px; height: 80px"
+            alt=""
+            srcset=""
+          />
+          <h5>Advertising and Marketing</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            minima fuga, deleniti vitae itaque hic.
+          </p>
+        </div>
+        <div class="blog-col text-start shadow">
+          <img
+            src="./img/icons8-web-development-64.png"
+            class="mb-2"
+            style="width: 80px; height: 80px"
+            alt=""
+            srcset=""
+          />
+          <h5>Website Development</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            iure repellendus, numquam ipsam odit doloremque dolorem?
+          </p>
+        </div>
+        <div class="blog-col text-start shadow">
+          <img
+            src="./img/icons8-app-development-64.png"
+            class="mb-2"
+            style="width: 80px; height: 80px"
+            alt=""
+            srcset=""
+          />
+          <h5>Mobile App Development</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            iure repellendus, numquam ipsam odit doloremque dolorem?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- how we serve -->
+    <section class="container-fluid dark-bg-img h-250 mb-5">
+      <div class="row w-75 mx-auto mt-auto">
+        <div class="col-xl-7 col-lg-7 my-auto">
+          <div class="w-100 .textBox text-white my-5">
+            <p class="small text-uppercase">Discover our company</p>
+            <h2>
+              <strong>Bringing</strong> new
+              <span class="text-info">IT Business Solution</span>
+            </h2>
+            <div class="underline bg-info ms-0"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quibusdam, quam mollitia modi dolorum provident perspiciatis sint
+              quae recusandae necessitatibus doloribus!
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+              nobis quam voluptate quibusdam ab beatae sint accusamus ea
+              adipisci, iste itaque illum repudiandae officia laudantium
+              architecto veritatis rem non? Odit necessitatibus soluta at
+              veritatis neque ab pariatur veniam culpa totam.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-5 d-none  d-lg-block d-xl-block">
+          <img
+            src="./img/officeSingle.jpg"
+            class="squre-img p-0 border-3 border-white mx-auto"
+            style="transform: translateY(3rem); height: 380px; width: 350px"
+          />
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="container mt-5">
+      <ul class="nav nav-tabs border-0 d-flex align-items-center justify-content-between myUl" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link border-0 active" id="cloud-tab" data-bs-toggle="tab" data-bs-target="#cloud" type="button" role="tab" aria-controls="cloud" aria-selected="true">
+
+            <img  src="./img/icons8-cloud-computing-64.png" alt="" />
+            <hr  class="d-none  d-lg-block d-xl-block" />
+            <small class="d-none  d-lg-block d-xl-block">Cloud&nbsp;Computing</small>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="java-tab" data-bs-toggle="tab" data-bs-target="#java" type="button" role="tab" aria-controls="java" aria-selected="false">
+            <img src="./img/icons8-java-64.png" alt="" />
+            <hr  class="d-none  d-lg-block d-xl-block" />
+            <small class="d-none  d-lg-block d-xl-block">JAVA&nbsp;Application&nbsp;Development</small>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="enter-tab" data-bs-toggle="tab" data-bs-target="#enter" type="button" role="tab" aria-controls="enter" aria-selected="false">
+            <img src="./img/icons8-enterprise-64.png" alt="" />
+            <hr  class="d-none  d-lg-block d-xl-block" />
+            <small class="d-none  d-lg-block d-xl-block">Enterprice&nbsp;Application&nbsp;Services</small>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="system-tab" data-bs-toggle="tab" data-bs-target="#system" type="button" role="tab" aria-controls="system" aria-selected="false">
+            <img src="./img/icons8-integration-64.png" alt="" />
+            <hr  class="d-none  d-lg-block d-xl-block" />
+            <small class="d-none  d-lg-block d-xl-block">System&nbsp;Integration</small>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="iott-tab" data-bs-toggle="tab" data-bs-target="#iott" type="button" role="tab" aria-controls="iott" aria-selected="false">
+            <img src="./img/icons8-device-64.png" alt="" />
+            <hr  class="d-none  d-lg-block d-xl-block" />
+            <small class="d-none  d-lg-block d-xl-block">Internet&nbsp;of&nbsp;Things(IOT)</small>
+          </button>
+        </li>
+       
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+
+
+        <div class="tab-pane fade show active" id="cloud" role="tabpanel" aria-labelledby="cloud-tab">
+          <div
+          class="col-xl-11 .col-lg-11 d-flex align-items-center justify-content-center " 
+        >
+          <div class="col-xl-7 col-lg-7">
+            <div class="w-100 .textBox text-black my-5">
+              <h1>Cloud Computing</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam, quam mollitia modi dolorum provident perspiciatis
+                sint quae recusandae necessitatibus doloribus! Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Quam molestias
+                asperiores, labore ratione velit minima vel porro reiciendis a
+                quis.
+              </p>
+              <ul class="list-group w-50">
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 text-end d-none d-xl-block d-lg-block">
+            <img src="./img/960x0.jpg" class="squre-img border-1 border-white shadow" alt="" />
+          </div>
+        </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="java" role="tabpanel" aria-labelledby="java-tab">
+            <div
+          class="col-xl-11 .col-lg-11 d-flex align-items-center justify-content-center " id="javaApp" role="tabpane2" aria-labelledby="javaApp-tab"
+        >
+          <div class="col-xl-7 col-lg-7">
+            <div class="w-100 .textBox text-black my-5">
+              <h1>JAVA Application Development</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam, quam mollitia modi dolorum provident perspiciatis
+                sint quae recusandae necessitatibus doloribus! Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Quam molestias
+                asperiores, labore ratione velit minima vel porro reiciendis a
+                quis.
+              </p>
+              <ul class="list-group w-50">
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 text-end d-none d-xl-block d-lg-block">
+            <img src="./img/960x0.jpg" class="squre-img border-1 border-white shadow" alt="" />
+          </div>
+        </div>
+        </div>
+
+        
+        <div class="tab-pane fade" id="enter" role="tabpanel" aria-labelledby="enter-tab">
+            <div
+          class="col-xl-11 .col-lg-11 d-flex align-items-center justify-content-center " id="enterService" role="tabpane3" aria-labelledby="enterService-tab"
+        >
+          <div class="col-xl-7 col-lg-7">
+            <div class="w-100 .textBox text-black my-5">
+              <h1>Enterprice Application Services</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam, quam mollitia modi dolorum provident perspiciatis
+                sint quae recusandae necessitatibus doloribus! Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Quam molestias
+                asperiores, labore ratione velit minima vel porro reiciendis a
+                quis.
+              </p>
+              <ul class="list-group w-50">
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 text-end d-none d-xl-block d-lg-block">
+            <img src="./img/960x0.jpg" class="squre-img border-1 border-white shadow" alt="" />
+          </div>
+        </div>
+        </div>
+        
+
+
+        <div class="tab-pane fade" id="system" role="tabpanel" aria-labelledby="system-tab">
+          <div
+          class="col-xl-11 .col-lg-11 d-flex align-items-center justify-content-center " id="systemInt" role="tabpane4" aria-labelledby="systemInt-tab"
+        >
+          <div class="col-xl-7 col-lg-7">
+            <div class="w-100 .textBox text-black my-5">
+              <h1>System Integration</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam, quam mollitia modi dolorum provident perspiciatis
+                sint quae recusandae necessitatibus doloribus! Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Quam molestias
+                asperiores, labore ratione velit minima vel porro reiciendis a
+                quis.
+              </p>
+              <ul class="list-group w-50">
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 text-end d-none d-xl-block d-lg-block">
+            <img src="./img/960x0.jpg" class="squre-img border-1 border-white shadow" alt="" />
+          </div>
+        </div>
+        </div>
+        
+
+
+        <div class="tab-pane fade" id="iott" role="tabpanel" aria-labelledby="iott-tab">
+          <div
+          class="col-xl-11 .col-lg-11 d-flex align-items-center justify-content-center " 
+        >
+          <div class="col-xl-7 col-lg-7">
+            <div class="w-100 .textBox text-black my-5">
+              <h1>Internet of Things(IOT)</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam, quam mollitia modi dolorum provident perspiciatis
+                sint quae recusandae necessitatibus doloribus! Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Quam molestias
+                asperiores, labore ratione velit minima vel porro reiciendis a
+                quis.
+              </p>
+              <ul class="list-group ">
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+                <li
+                  class="list-group-item d-flex border-0 d-flex align-items-center justify-content-between"
+                >
+                  <i class="fa fa-greater-than"></i>
+                  <p class="p-0 mb-0">Create new app and service</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 text-end d-none d-xl-block d-lg-block">
+            <img src="./img/960x0.jpg" class="squre-img border-1 border-white shadow" alt="" />
+          </div>
+        </div>
+        </div>
+        
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------footer------>
+    <div class="container-fluid bg-dark">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-4 col-xl-4 col-md-6 col-sm-6 bg-black text-white pt-4"
+          >
+            <h4><strong>Contact</strong> Info</h4>
+            <div class="underline bg-info ms-0"></div>
+            <ul class="w-100 d-flex flex-column align-items-baseline px-0">
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <div
+                  class="bg-info icon-50 d-flex align-items-center justify-content-center me-1"
+                >
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="text-white ms-1">
+                  <p class="mb-0">Phone Number</p>
+                  <h5>+7602520120/9007803811</h5>
+                </div>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <div
+                  class="bg-info icon-50 d-flex align-items-center justify-content-center me-1"
+                >
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="text-white ms-1">
+                  <p class="mb-0">E-mail address</p>
+                  <h5>info@labbayktech.com</h5>
+                </div>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <div
+                  class="bg-info icon-50 d-flex align-items-center justify-content-center me-1"
+                >
+                  <i class="fa fa-location-dot"></i>
+                </div>
+                <div class="text-white ms-1">
+                  <p class="mb-0">Adderess</p>
+                  <p class="h6">
+                    1st floor Aradhya Complex, <br />
+                    Kanke Road, Ranchi 834008, <br />
+                    Jharkhand
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-2 col-xl-2 col-md-6 col-sm-6 ms-xl-2 ms-lg-2 text-white pt-4"
+          >
+            <h4><strong>Our</strong> company</h4>
+            <div class="underline bg-info ms-0"></div>
+            <ul class="w-100 d-flex flex-column align-items-baseline px-0">
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none">Home</a>
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >About Us</a
+                  >
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >Product We Offer</a
+                  >
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >Our Union</a
+                  >
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >Contact Us</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-2 col-xl-2 col-md-6 col-sm-6 ms-xl-2 ms-lg-2 text-white pt-4"
+          >
+            <h4><strong>We</strong> Provide</h4>
+            <div class="underline bg-info ms-0"></div>
+            <ul class="w-100 d-flex flex-column align-items-baseline px-0">
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >Cloud Computing</a
+                  >
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >Java Application Development</a
+                  >
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >enterprice Solutions</a
+                  >
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >System Integration</a
+                  >
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  <a href="" class="text-white text-decoration-none"
+                    >Internet of Things(IOT)</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-xl-3 col-md-6 col-sm-6 ms-xl-2 ms-lg-2 text-white pt-4"
+          >
+            <h5><strong>Subscribe </strong>to the newsletter</h5>
+            <div class="underline bg-info ms-0"></div>
+            <ul class="w-100 d-flex flex-column align-items-baseline px-0">
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <p>
+                  Recive our weekly newsletter for the latest development news
+                  and offers exclusive and more.
+                </p>
+              </li>
+              <li class="w-100 text-white d-flex" style="list-style: none">
+                <form>
+                  <div class="d-flex w-100">
+                    <input
+                      id="newsletter1"
+                      type="text"
+                      class="form-control rounded-0"
+                      placeholder="Email address"
+                    />
+                    <button class="btn btn-info rounded-0" type="button">
+                      <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center text-dark">
+      <p>
+        &copy; 2017 Labbayk Technologies - All rights reserved |
+        <a href="" class="text-decoration-none text-dark">Legal Notice</a> |
+        <a href="" class="text-decoration-none text-dark">Sitemap</a>
+      </p>
+    </div>
+
+    <script src="./js/custom.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
