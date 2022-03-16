@@ -72,7 +72,7 @@ nav h1 {
   color: var(--bs-primary);
 }
 .nav-links ul .link-active a {
-  color: var(--bs-primary);
+  color: var(--bs-primary) !important;
 }
 .nav-links ul li::after {
   content: "";
@@ -605,6 +605,8 @@ h1{
   background-image: linear-gradient(rgba(4,9,30,0.5),rgba(2, 6, 22, 0.5)),url('../img/map-animation.gif') !important;
 }
 
+
+
 .myUl li{
   min-width: fit-content;
   width: 220px;
@@ -618,6 +620,7 @@ h1{
   .myUl li{
     width: 80px;
   }
+
 }
 @media(max-width:700px){
   .myUl li{
@@ -635,7 +638,76 @@ h1{
   }
 }
 
+.mygall{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: auto;
+}
 
+.mygall li{
+  min-width: fit-content;
+  width: 100px;
+  
+  margin: 0.5rem 1rem;
+}
+.mygall li button{
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width:1024px){
+  .mygall{
+    width: 90%;
+
+  }
+  .mygall li{
+    margin: 0.5rem 0.5rem;
+  }
+}
+@media (max-width:786px){
+  .mygall{
+    width: 100%;
+
+  }
+  .mygall li{
+    margin: 0.5rem 0;
+  }
+  .mygall li button{
+    padding: 0.5rem;
+  }
+}
+@media (max-width:530px){
+  .mygall{
+    width: 100%;
+
+  }
+  .mygall li{
+    width: 80px;
+    margin: 0.5rem 0;
+  }
+  .mygall li button{
+    padding: 0.5rem 0;
+  }
+}
+@media (max-width:480px){
+  .mygall{
+    width: 100%;
+
+  }
+  .mygall li{
+    width: fit-content;
+    margin: 0.5rem 2px;
+  }
+  .mygall li button{
+    padding: 0.5rem 3px;
+  }
+}
 
 
 .myUl li button{
@@ -670,4 +742,65 @@ h1{
   margin-left: -13px;
   position: absolute;
   width: 0;
+  }
+
+
+.mygall li button{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.03) !important;
+}
+.mygall li button:hover{
+  transform: scale(1.1);
+}
+.mygall li .active{
+  position: relative;
+  background: var(--bs-info) !important;
+  color: #fff;
+}
+.mygall li .active:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  }
+.mygall li .active:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid var(--bs-info) 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+  }
+
+  .hover img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .hover .hover-effect{
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    flex-direction: column;
+    opacity: 0;
+    transition:0.8s;
+  }
+  .hover:hover .hover-effect{
+    opacity: 1;
+  }
+  .hover:hover{
+    transform: scale(1.1);
   }
