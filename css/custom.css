@@ -151,9 +151,6 @@ nav .fas {
   object-fit: cover;
 }
 
-.banner-bg1 {
-  background-image: url("../img/carausel1.jpg");
-}
 
 .banner-text h1 > span {
   color: var(--bs-primary);
@@ -864,7 +861,7 @@ h1 {
   overflow: hidden;
 }
 
-img {
+.card-wrapper img {
   display: block;
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -896,7 +893,7 @@ img {
   transform: scaleY(1);
 }
 
-h6 {
+.hidden-cover h6 {
   position: absolute;
   z-index: 1;
   bottom: -10px;
