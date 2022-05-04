@@ -45,3 +45,9 @@ function closeModal(params) {
   document.getElementById(params).style.display='none';
   document.getElementById(params).style.opacity=0;
 }
+
+
+
+function call(val){
+  window.open("tel:${val}");
+}
