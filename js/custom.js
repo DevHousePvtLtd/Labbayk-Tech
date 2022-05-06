@@ -49,5 +49,12 @@ function closeModal(params) {
 
 
 function call(val){
-  window.open("tel:${val}");
+  window.open("tel:"+val);
+}
+
+function email(val) {
+  
+  console.log(val);
+  console.log("mailto:"+val);
+  window.location.href = "mailto:"+val;
 }
