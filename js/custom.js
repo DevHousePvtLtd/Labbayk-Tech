@@ -56,5 +56,10 @@ function email(val) {
   
   console.log(val);
   console.log("mailto:"+val);
-  window.location.href = "mailto:"+val;
+  var email = val;
+  var subject = 'Test';
+  var emailBody = 'Hi Sample,';
+  
+  
+  window.location.href = "mailto:"+email+"?subject="+subject+"&body="+emailBody;
 }
